@@ -1,0 +1,240 @@
+body{
+    background-color: #2B2B2B;
+    margin: 0;
+}
+
+* {
+    font-family:  "WorkSans";
+}
+
+@font-face {
+    font-family: "WorkSans";
+    src: url("../fonts/WorkSans.ttf");
+}
+
+@font-face {
+    font-family: "SpaceMono";
+    src: url("../fonts/SpaceMono.ttf");
+}
+
+@media screen and (max-width: 768px) {
+    li:first-child, li:nth-child(2), li:nth-child(3){
+        background-color: #3B3B3B;
+        row-gap: 10px   ;
+        width: 100% !important;
+        padding-left: 10px;
+    }
+      
+    ul:first-child{
+        margin-top: 10px;
+    }
+
+    .sign-up{
+        height: 45px !important;
+        width: 100% !important;
+        border-radius: 0 !important;
+    }
+
+    li{
+        margin-bottom: 7px;
+    }
+  
+    .navbar-nav{
+        display: block !important;
+    }
+
+    .purple{
+        width: 100% !important;
+    }
+
+    .black{
+        width: 100% !important;
+    }
+
+    .fifth{
+        padding: 50px 0 0 0  !important;
+       
+    }
+
+    .fifth .row:first-child{
+        gap: 20px;  
+    }
+
+    .purple{
+        background-color: #A259FF !important;
+        height: 60px !important; 
+        width: 100% !important;
+        margin-left: 0px !important;
+        text-decoration: none !important;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: center;
+    }
+
+
+}
+
+.sign-up{
+    width: 152px;
+    height: 60px;
+    padding: 0px 30px 0px 30px;
+    background-color: #A259FF;
+    font-size: 16px;
+    border: none;
+    font-weight: 600;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-menu .navbar-nav {
+    column-gap: 10px;
+}
+
+a svg {
+    margin-right: 12px;
+}
+
+#Cover{
+    background-image: url(../images/clouds.png);
+    background-size: cover;
+    height: 400px;
+}
+
+.anima{
+    margin-left: 300px;
+}
+
+.anima2{
+    margin-left: 35%;
+}
+
+#clou{
+    background-image: url(../images/clouds2.png);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.animap{
+    color: #858584;
+}
+
+.purple{
+    background-color: #A259FF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    pointer-events: none;
+    border-radius: 20px;
+    width: 186px;
+    height: 60px;
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;   
+}
+
+.black{
+    background-color: transparent;
+    border: 2px solid #A259FF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    pointer-events: none;
+    border-radius: 20px;
+    width: 145px;
+    height: 60px;
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+}
+
+.number{
+    background-color: #858584;
+    font-family: "SpaceMono";
+    border-radius: 20px;
+    width: 50px;
+    height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.number2{
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    width: 40px;
+    height: 32px;
+    font-family: "SpaceMono";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.owned{
+    color: #858584;
+}
+
+.browse, .fifth, .card{
+    background-color: #3B3B3B;
+    border: none;
+}
+
+.card-body{
+    background-color: #2B2B2B;
+}
+
+.row .col-6 p:first-child {
+    font-family: "SpaceMono";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #858584;
+}
+
+.form-control{
+    height: 60px;
+    width: 425px;
+}
+
+.grey{
+    color: #CCCCCC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    text-decoration: none;
+    border: none !important;
+}
+
+.wrap{
+    width: 100%;
+    position: absolute;  
+}
+
+.wrap2 button{
+    background-color: #A259FF;
+    height: 60px;
+    width: 211px;
+    border-radius: 20px;
+    left: 220px;
+    pointer-events: none;
+}
+
+.footer{
+    background-color:#3B3B3B;
+}
+
+hr{
+    width: 100%;
+    color: #CCCCCC;
+}
+
+.NFT{
+    color: #CCCCCC;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: left;
+}

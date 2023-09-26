@@ -1,0 +1,494 @@
+body{
+    background-color: #2B2B2B;
+    margin: 0;
+}
+
+* {
+    font-family:  "WorkSans";
+}
+
+@font-face {
+    font-family: "WorkSans";
+    src: url("../fonts/WorkSans.ttf");
+}
+
+@font-face {
+    font-family: "SpaceMono";
+    src: url("../fonts/SpaceMono.ttf");
+}
+
+@media screen and (max-width: 768px) {
+    li:first-child, li:nth-child(2), li:nth-child(3){
+        background-color: #3B3B3B;
+        row-gap: 10px   ;
+        width: 100% !important;
+        padding-left: 10px;
+
+    }
+      
+    ul:first-child{
+        margin-top: 10px;
+    }
+
+    .sign-up{
+        height: 45px !important;
+        width: 100%;
+        border-radius: 0 !important;
+    }
+  
+    .sign-up:first-child{
+        color:"#2B2B2B" ;
+    }
+  
+    li{
+        margin-bottom: 7px;
+    }
+  
+    .navbar-nav{
+        display: block !important;
+    }
+
+    .sign-up {
+        width: 100% !important;
+    }
+
+    .first p{
+        font-size: 28px !important;
+        line-height: 39px !important;
+    }
+
+    .sec{
+        font-size: 16px !important;
+        line-height: 22px !important;
+    }
+
+    .space{
+        width: 100% ;   
+        border: transparent !important;
+    }
+
+    .small-font {
+        font-size: 15px !important;
+    }
+
+    .Keepit{
+        display: flex !important;
+        justify-content: center !important;
+        align-items:center !important;
+        margin-bottom: 0 !important;
+    }
+
+    .woman{
+        width: 80px !important;
+        margin: 15px !important;
+    }
+
+    .woman1{
+        text-align: left !important;
+    }
+
+    .start{
+        border: 2px solid #A259FF !important;   
+    }
+
+    .land{
+        max-width:100%;
+        height: auto;
+        max-height: 100%;
+    }
+
+    .PR{
+        left: 50% !important;
+        top: 30% !important;
+        transform: translate(-50%, -50%) !important;
+        width: 70px !important;
+    }
+
+    h5{
+        font-size: 16px !important;
+    }
+
+    .fourth-chapter{
+        margin-top: 0px !important;
+    }
+
+    .Mashroom{
+        background-image: url(../images/mmashroom.png) !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        width: 100% !important;
+        height: 640px !important;
+    }
+
+    .timer{
+        margin-top: 0 !important;
+        margin-bottom: 30px;
+    }
+
+    .rowmashroom{
+        padding-top: 130px !important;
+    }
+
+    .shr-white{
+        width: 100% !important;
+    }
+
+    .walllet{
+        width: 100px;
+        height: 100px;
+    }
+
+    .works1{   
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        margin-bottom: 0 !important;    
+    }
+
+    .works{ 
+        font-size: 12px !important;
+        font-weight: 400 !important;
+        margin-bottom: 0!important;
+    }
+    
+    .form-control{
+        height: 60px !important;  
+        width: 100% !important;
+    }
+    
+    .purple{
+        background-color: #A259FF !important;
+        height: 60px !important; 
+        width: 100% !important;
+        margin-left: 0px !important;
+        text-decoration: none !important;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    
+   }
+
+.sign-up{
+    height: 60px;
+    padding: 0px 30px 0px 30px;
+    background-color: #A259FF;
+    font-size: 16px;
+    border: none;
+    font-weight: 600;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-menu .navbar-nav {
+    column-gap: 10px;
+}
+
+a svg {
+    margin-right: 12px;
+}
+
+.first p { 
+    font-size: 67px;
+    font-weight: 600;
+    line-height: 74px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.sec {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+.start{
+    height: 60px;
+    padding: 0px 50px 0px 50px;
+    border-radius: 20px;
+    background-color: #A259FF;
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+}
+
+h4{
+    font-weight: 700;
+}
+
+.first{
+    margin-bottom: 20px;
+}
+
+.Astronaut{
+    background-color: #3B3B3B;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 510px;
+    height: 109px;
+}
+
+.Astronaut p {
+    color: #FFFFFF; 
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Astronaut svg{
+    margin-right: 12px;
+    margin-left: 20px;
+}
+
+.card{
+    background-color: #2B2B2B;
+   
+}
+
+div.col-md-12 > p:first-child {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF; 
+}
+
+div.col-md-12 > p:nth-child(2) { 
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.Dog-but{
+    background-color: #A259FF;
+    font-family: "SpaceMono";
+    font-size: 22px;
+    border: none;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;  
+}
+
+.col-4 > img, .col-4 > button {
+    width: 100%;
+    height: 100%;
+}
+
+div.d-flex > img:first {
+    width: 100px;
+    height: 100px; 
+}
+
+.DSGN {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.CR-2 {
+    width: 330PX;
+    height: 100px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFFF;    
+    padding-left: 50px;
+}
+
+.col-md-4 a{
+    border: 2px solid #A259FF;
+    width: 247px;
+}
+
+.WW1{
+    background-color:  #3B3B3B;
+}
+
+.WW{
+    color: #858584; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+span .text-light{  
+    font-family: "SpaceMono";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;  
+}
+
+.blured{
+    -webkit-filter: blur(5px); 
+    filter: blur(5px);
+}
+
+.browse {
+    background-color: #3B3B3B;
+}
+
+.PR{
+    left: 40%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+}
+
+.row .col-6 p:first-child {
+    font-family: "SpaceMono";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #858584;
+}
+
+
+.row .col-6 p:nth-child(2) { 
+    font-family: "SpaceMono";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.Mashroom{
+    background-image: url(../images/hugemashroom.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 640px
+}
+
+.shroomie{
+    width: 24px;
+    height: 24px;
+}
+
+.hulf{
+    height: 50%;
+}
+
+.shr{
+    background-color: #3B3B3B;
+    text-decoration: none;
+    height: 44px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+h1{
+    font-size: 51px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+.shr-white{
+    width:198px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.timer{
+    margin-top: 80px;
+}
+
+.setup{
+    background-color: #3B3B3B;
+}
+
+.works{  
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.form-control{
+    height: 60px;
+    width: 425px;
+}
+
+.footer{
+    background-color:#3B3B3B;
+}
+
+hr{
+    width: 100%;
+    color: #CCCCCC;
+}
+
+.NFT{
+    color: #CCCCCC;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: left;
+}
+
+.grey{
+    color: #CCCCCC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    text-decoration: none;
+    border: none !important;
+
+}
+
+.wrap{
+    width: 100%;
+    position: absolute;
+   
+}
+
+.wrap2 button{
+    background-color: #A259FF;
+    height: 60px;
+    width: 211px;
+    border-radius: 20px;
+    left: 220px;
+    pointer-events: none;
+
+}
+
+
+
+
+
+
+
+

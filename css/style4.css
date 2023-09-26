@@ -1,0 +1,217 @@
+body{
+    background-color: #2B2B2B;
+    margin: 0;
+}
+
+* {
+    font-family:  "WorkSans";
+}
+
+@font-face {
+    font-family: "WorkSans";
+    src: url("../fonts/WorkSans.ttf");
+}
+
+@font-face {
+    font-family: "SpaceMono";
+    src: url("../fonts/SpaceMono.ttf");
+}
+
+@media screen and (max-width: 768px) {
+    li:first-child, li:nth-child(2), li:nth-child(3){
+        background-color: #3B3B3B;
+        row-gap: 10px   ;
+        width: 100% !important;
+        padding-left: 10px;
+    }
+      
+    ul:first-child{
+        margin-top: 10px;
+    }
+
+    .sign-up{
+        height: 45px !important;
+        width: 100%;
+        border-radius: 0 !important;
+    }
+  
+    .sign-up:first-child{
+        color:"#2B2B2B" ;
+    }
+  
+    li{
+        margin-bottom: 7px;
+    }
+  
+    .navbar-nav{
+        display: block !important;
+    }
+   
+    .sec{
+        text-align: center !important;
+        font-size: 16px !important;
+    }
+    
+    .purple{
+        background-color: #A259FF !important;
+        height: 60px !important; 
+        width: 100% !important;
+        margin-left: 0px !important;
+        text-decoration: none !important;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: center;
+    }
+    
+}
+
+.sign-up{
+    height: 60px;
+    padding: 0px 30px 0px 30px;
+    background-color: #A259FF;
+    font-size: 16px;
+    border: none;
+    font-weight: 600;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.main{
+    height: 700px;
+}
+
+.differetnt{
+    color:#858584;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.differetnt2{
+    font-family: "SpaceMono";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 35px;
+    color:#858584;
+}
+
+.bigone{  
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.animation{
+    background-color:#3B3B3B;
+    
+}
+
+.clock1{
+    width: 50%;
+}
+
+.clock{
+    background-color:#3B3B3B;
+    height: 240px;
+    width: 50%;
+    border-radius: 20px;
+    padding: 20px;
+    
+}
+
+.numbers{
+    font-family: "SpaceMono";
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+ 
+}
+
+.Auction{
+    font-family: "SpaceMono";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+
+}
+
+.clocl-but{
+    width: 100%;
+    height: 60px;
+    background-color: #A259FF;
+    border-radius: 20px;
+    pointer-events: none;
+}
+
+.Go-To{
+    border-radius: 20px;
+    border: 2px solid #A259FF;
+    height: 60px;
+    width: 265px;
+    pointer-events: none;
+}
+
+.card-body{
+    background-color: #3B3B3B;
+}
+
+.row .col-6 p:first-child {
+    font-family: "SpaceMono";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    color: #858584;
+}
+
+.card {
+    background-color: #3B3B3B;
+    border: none;
+}
+
+.form-control{
+    height: 60px;
+    width: 425px;
+}
+
+.grey{
+    color: #CCCCCC;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    text-decoration: none;
+    border: none !important;
+}
+
+.wrap{
+    width: 100%;
+    position: absolute;  
+}
+
+.wrap2 button{
+    background-color: #A259FF;
+    height: 60px;
+    width: 211px;
+    border-radius: 20px;
+    left: 220px;
+    pointer-events: none;
+}
+
+.footer{
+    background-color:#3B3B3B;
+}
+
+hr{
+    width: 100%;
+    color: #CCCCCC;
+}
+
+.NFT{
+    color: #CCCCCC;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: left;
+}
